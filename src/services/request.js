@@ -1,6 +1,8 @@
 import axios from "axios"
 
-let baseURL = "http://localhost:9000"
+// let baseURL = "http://localhost:9000"
+// let baseURL = "https://allpetcare-medusa-backend.herokuapp.com"
+let baseURL = "https://allpetcare-backend.herokuapp.com"
 
 // deprecated
 if (process.env.GATSBY_STORE_URL) {
